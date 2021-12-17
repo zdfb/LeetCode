@@ -26,8 +26,3 @@ def quick_sort(nums):
             sort(nums, left, low - 1)  # 左边递归调用
             sort(nums, high + 1, right) # 右边递归调用
     sort(nums, 0, len(nums) - 1)  # 调用递归函数
-
-    
-    
-
-    
